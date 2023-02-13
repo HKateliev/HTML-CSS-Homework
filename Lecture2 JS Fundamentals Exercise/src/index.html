@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+/>
+<html>
+  <head>
+    <title>Lecture 1: HTML/CSS</title>
+  </head>
+
+  <body onload="document.querySelector('#form1').reset()">
+    <div class="mainScreen">
+      <div class="sideNavBar">
+        <div class="upperSideBar">
+          <img
+            src="/Users/hkateliev/Desktop/Lecture2 JS Fundamentals Exercise/dist/113ba04458d0aa195e4f.png"
+          />
+          <div class="elementsUpperFlex">
+            <img
+              src="/Users/hkateliev/Desktop/Lecture 1 HTML:CSS Exercise/Screenshot 2023-02-01 at 14.42.07.png"
+            />
+            <p id="paragraph">Crops</p>
+            <img
+              src="/Users/hkateliev/Desktop/Lecture 1 HTML:CSS Exercise/Screenshot 2023-02-01 at 14.42.31.png"
+            />
+            <p id="paragraph">Products</p>
+            <img
+              src="/Users/hkateliev/Desktop/Lecture 1 HTML:CSS Exercise/Screenshot 2023-02-01 at 14.42.39.png"
+            />
+            <p id="paragraph">Crop Calendars</p>
+            <img
+              src="/Users/hkateliev/Desktop/Lecture 1 HTML:CSS Exercise/Screenshot 2023-02-01 at 14.42.43.png"
+            />
+            <p id="paragraph">Weather Alert</p>
+            <img
+              src="/Users/hkateliev/Desktop/Lecture 1 HTML:CSS Exercise/Screenshot 2023-02-01 at 14.42.47.png"
+            />
+            <p id="paragraph">Local Settings</p>
+            <img
+              src="/Users/hkateliev/Desktop/Lecture 1 HTML:CSS Exercise/Screenshot 2023-02-01 at 14.42.51.png"
+            />
+            <p id="paragraph">Spray and Spread</p>
+          </div>
+        </div>
+        <div class="lowerSideBar">
+          <div class="elementsLowerFlex">
+            <img
+              src="/Users/hkateliev/Desktop/Lecture 1 HTML:CSS Exercise/Screenshot 2023-02-01 at 14.56.05.png"
+            />
+            <p id="paragraph">Global Settings</p>
+          </div>
+        </div>
+      </div>
+      <div class="rightSide">
+        <div class="topNavBar">
+          <div class="leftTopNavBar">
+            <label>Polaris Data Administration</label>
+            <button class="dropbtn">
+              Mayotte-All<i class="arrow down"></i>
+            </button>
+            <button class="dropbtn">
+              All Solutions<i class="arrow down"></i>
+            </button>
+          </div>
+
+          <div class="rightTopNavBar">
+            <button class="btn">en<i class="arrow down"></i></button>
+            <button class="btn">Profile<i class="arrow down"></i></button>
+          </div>
+        </div>
+
+        <div class="midField">
+          <h1 class="mainText">
+            <i class="fa-solid fa-arrow-left" id="image"></i>Form Validation
+          </h1>
+
+          <div class="formValidation">
+            <form id="form1">
+              <label1 for="uname">Username:</label1><br />
+              <input type="text" class="inputLogin" id="uname" required /><br />
+              <p id="nameError" class="paragraphs"></p>
+              <label1 for="pass">Password:</label1><br />
+              <input
+                type="password"
+                class="inputLogin"
+                id="pass"
+                required
+              /><br />
+              <p id="passError" class="paragraphs"></p>
+              <label1 for="email">Email:</label1><br />
+              <input type="text" class="inputLogin" id="email" required /><br />
+              <p id="emailError" class="paragraphs"></p>
+            </form>
+          </div>
+
+          <div class="endBtnsFlex">
+            <div class="rightBtns">
+              <button class="rightBtn-2" type="submit" form="form1">
+                Submit
+              </button>
+            </div>
+          </div>
+          <script src="/Users/hkateliev/Desktop/Lecture2 JS Fundamentals Exercise/src/index.js"></script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
