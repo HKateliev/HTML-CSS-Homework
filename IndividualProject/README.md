@@ -1,0 +1,2 @@
+-Open the restapi project and there we should start the server with npm run start:dev
+-Then in the fpyaraintern_2023 we should start the frontend with command npm start
